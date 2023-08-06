@@ -27,11 +27,10 @@
         // Function to clear input box history
         //I dont like those
         function clearInputHistory() {
-            var input = document.getElementById("ipbox");
-            input.value = ""; // Clear the input box
-            input.autocomplete = "off"; // Disable autocomplete
-            input.autocomplete = "on"; // Re-enable autocomplete
-        }
+    var input = document.getElementById("ipbox");
+    input.value = ""; // Clear the input box
+    input.autocomplete = "off"; // Disable autocomplete
+}
 
         // Create a new task list item with checkbox and buttons
         function createTaskListItem(taskText) {
